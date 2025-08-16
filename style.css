@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8d1c4; /* Warna background sesuai gambar */
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: transparent;
+  padding: 15px 0;
+}
+header .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.btn-login {
+  padding: 6px 15px;
+  border: 1px solid #000;
+  background: transparent;
+  text-decoration: none;
+  color: #000;
+  border-radius: 4px;
+}
+.cart {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+.hero-text {
+  max-width: 500px;
+}
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.hero-text p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.btn-explore {
+  background: #d19b85;
+  padding: 12px 25px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.hero-img img {
+  max-width: 400px;
+  border-radius: 30px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 32px;
+  }
+  nav ul {
+    display: none; /* Bisa diganti dengan menu burger */
+  }
+}
+/* ABOUT */
+.about {
+  padding: 50px 20px;
+  background: #fff;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.about-img img {
+  width: 400px;
+  border-radius: 15px;
+}
+.about-text {
+  flex: 1;
+}
+.about-text h2 {
+  font-size: 24px;
+  color: #2b4f2f; /* Hijau sesuai gambar */
+  margin-bottom: 15px;
+}
+.about-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-img img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
