@@ -34,9 +34,7 @@ nav ul li a {
   color: #000;
   font-weight: 500;
 }
-.nav-links a:hover {
-  color: #f5c518; /* warna berubah saat hover */
-}
+
 .header-right {
   display: flex;
   align-items: center;
@@ -174,8 +172,8 @@ nav ul li a {
   margin: 0 auto;
 }
 
-.product-card{
-  background: #93B9A2;
+.product-card {
+  background: #93b9a2;
   border-radius: 12px;
   padding: 20px;
   text-align: center;
