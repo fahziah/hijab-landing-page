@@ -17,15 +17,16 @@
     </div>
 
     <!-- Tombol toggle -->
-    <div class="menu-toggle" id="menu-toggle">
+    <div class="menu-toggle" id="menu-toggle"onclick="toggle-menu">
+      
       <span></span>
       <span></span>
       <span></span>
     </div>
 
-    <!-- Navigation -->
+     <!-- Navigation -->
     <nav>
-      <ul id="menu-toggle">
+      <ul id="menu">
         <li><a href="#hero">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#features">FEATURES</a></li>
@@ -42,8 +43,8 @@
 
 <!-- SCRIPT -->
 <script>
-  const toggle = document.getElementById('menu-toggle');
-  const menu = document.getElementById('menu');
+  const toggle = document.getElementById('menu-toggle'); // tombol
+  const menu = document.getElementById('menu'); // ul
 
   toggle.addEventListener('click', () => {
     menu.classList.toggle('show');
