@@ -147,6 +147,7 @@ nav ul li a {
   padding: 40px 20px;
   flex-wrap: wrap;
 }
+
 .hero-text {
   max-width: 500px;
 }
@@ -178,9 +179,11 @@ nav ul li a {
   .hero {
     flex-direction: column;
     text-align: center;
+    
   }
   .hero-text h1 {
     font-size: 32px;
+    padding-top: 60px;
   }
   nav ul {
     display: none; /* Bisa diganti dengan menu burger */
