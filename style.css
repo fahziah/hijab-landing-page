@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
+
   background-color: #e8d1c4; 
   color: #333;
 }
@@ -67,6 +67,7 @@ nav ul {
     color: #333; 
     padding: 10px;
     display: block;
+    font-family: 14px"open sans",sans-serif;
   }
 
   .menu-toggle {
@@ -131,6 +132,7 @@ nav ul li a {
   text-decoration: none;
   color: #000;
   border-radius: 4px;
+   font-family: 14px"open sans",sans-serif;
 }
 .cart {
   font-size: 18px;
